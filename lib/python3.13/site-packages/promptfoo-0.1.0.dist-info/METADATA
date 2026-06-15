@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: promptfoo
+Version: 0.1.0
+Summary: LLM evals and red teaming
+Home-page: https://github.com/promptfoo/promptfoo
+Author: Ian Webster
+Author-email: ian@promptfoo.dev
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# promptfoo - LLM evals and red teaming
+
+This is a Python wrapper for the [promptfoo](https://www.promptfoo.dev) CLI.
+
+Refer to the [website](https://www.promptfoo.dev/) and the [GitHub](https://github.com/typpo/promptfoo) for more information.

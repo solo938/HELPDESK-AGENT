@@ -1,0 +1,43 @@
+# Core agent framework
+langgraph==0.3.34
+langchain-core==0.3.86
+langchain-anthropic==0.3.22
+
+# Schema validation
+pydantic>=2.7.0,<3.0.0
+pydantic-settings==2.6.1
+
+# API layer
+fastapi==0.111.1
+uvicorn[standard]==0.27.0
+
+# Database
+sqlalchemy==2.0.22
+
+# Caching / Queue
+redis==5.3.0
+celery==5.3.0
+
+# Reliability
+tenacity==9.0.0
+
+# Observability (Fixed OpenTelemetry mismatch)
+opentelemetry-api==1.29.0
+opentelemetry-sdk==1.29.0
+opentelemetry-instrumentation-fastapi==0.50b0
+prometheus-client==0.17.1
+
+# PII / Guardrails
+presidio-analyzer==2.2.357
+presidio-anonymizer==2.2.357
+
+# Testing
+pytest==8.3.2
+pytest-asyncio==0.22.0
+httpx==0.28.1
+
+# Eval
+promptfoo==0.1.0
+
+# Utilities
+python-dotenv==1.0.0
